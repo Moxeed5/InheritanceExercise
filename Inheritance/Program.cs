@@ -24,16 +24,43 @@ namespace Inheritance
 
 
             /*Create an object of your Bird class
+             *
              *  give values to your members using the object of your Bird class
              *  
              * Creatively display the class member values 
              */
+
+            Bird Falcon = new Bird();
+
+            Falcon.canFly = true;
+
+            Falcon.featherColor = "Brown";
+
+            Falcon.Wings = "Large";
+
+            Falcon.Beak = "Sharp";
+
+            Falcon.SizeOutof100 = 20;
+
 
             /*Create an object of your Reptile class
              *  give values to your members using the object of your Reptile class
              *  
              * Creatively display the class member values 
              */
+
+            Reptile MonitorLizard = new Reptile();
+
+            MonitorLizard.Scales = "Rough Scales";
+
+            MonitorLizard.isHerbivore = false;
+
+            MonitorLizard.Amphibious = "Land";
+
+            MonitorLizard.hasTail = true;
+
+            MonitorLizard.SizeOutof100 = 35; 
+
         }
     }
 }
